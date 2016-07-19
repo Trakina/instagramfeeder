@@ -27,6 +27,7 @@
  * For more information, please refer to <http://unlicense.org>
  */
 
+var instagramUser = "leaverou"; // instagram user
 var howManyPosts = 6; // 20 max
 var idOfTheContainer = "instagramPosts"; // post container will have this id
 var postContainerTag = "div"; // each post will be inside one of these elements
