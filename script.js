@@ -62,8 +62,8 @@ function putposts(json){
 
 function fetchinstagram(){
     var url = "https://www.instagram.com/" + instagramUser + "/media";
-    var yql="select *  from json where url='" + url + "';";
-    yql="http://query.yahooapis.com/v1/public/yql?q=" + encodeURIComponent(yql) + "&format=json&callback=putposts";
+    var yql = "select *  from json where url='" + url + "';";
+    yql = "http://query.yahooapis.com/v1/public/yql?q=" + encodeURIComponent(yql) + "&format=json&callback=putposts";
     getinstagramjson(yql);
 }
 
